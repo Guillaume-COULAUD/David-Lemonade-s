@@ -1,0 +1,247 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+	
+	background-image:url(couleur.jpg);
+	background-size:100% 100%;
+}
+
+main{
+	width: 85%;
+	margin:auto;
+	/*background-color: white;*/
+	padding-top: 35px;
+	background-image:url(background-906143_1920.jpg);
+}
+
+p{
+	text-align: justify;
+}
+
+header{
+	margin-bottom: 40px;
+}
+
+
+	
+h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+iframe {
+	margin-bottom: 20px}
+
+
+#Sections{
+	margin-left: 20px;
+	margin-right: 20px;
+	border-bottom: 1px solid black;
+	margin-bottom: 20px;
+}
+
+h2{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+
+
+#pilier1{
+	padding: 20px;
+	margin-bottom:10px;
+}
+	
+#piliers article{
+	padding: 20px;
+	margin-bottom:10px;
+	
+	
+	
+}
+section{
+	margin-bottom: 20px;
+}
+
+
+#Actu article img{
+	width:50%;
+
+}
+
+#Actu article div{
+	width: 70%;
+	
+
+}
+
+#Actu article img, #Actu article div{
+	display: inline-block;
+	vertical-align: text-top;
+	
+}
+
+#Actu article:nth-child(4), #Actu article:nth-child(5)
+{
+	display:none;
+	width : 50%;
+
+	
+}
+
+
+.mobile{
+	display: block;
+	background-color:navy;
+	margin: auto;
+	border: 1px solid black;
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
+	width: 300px;
+
+}	
+
+
+
+
+footer p{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+@media screen and (min-width: 960px){
+
+	main{
+		width: 70%;
+	}
+	header{
+		text-align:center;
+	}
+	header img{
+		display: inline-block;
+		vertical-align: middle;
+		width : 200px;
+	}
+	
+	.btnpop{
+	background-color: orangered;
+	padding: 1em 2em;
+	font-size: 14pt;
+	color: #000;
+	cursor: pointer;
+}
+
+.btnpop:hover{
+	background-color: gainsboro;
+}
+
+.overlay{
+	position: fixed;
+	left: 0px;
+	top:0px;
+	background-color: rgba(0,0,0,0.5);
+	height: 100%;
+	width: 100%;
+	display: none;
+
+}
+
+.pop{
+	margin: 20 % auto;
+	width:70%;
+	background-color:white;
+	border-radius: 5px;
+	box-shadow: 15px 20px 0 rgba(0,0,0,0.5);
+}
+.close{
+	float: right;
+	cursor: pointer;
+}
+
+	#Actu article{
+		display: inline-block;		
+	}
+	
+	#Actu article img{
+	width:25%;
+	vertical-align: text-top;
+	}
+
+	#Actu article div{
+	margin :20px;
+	}
+	#Actu article:nth-child(4), #Actu article:nth-child(5)
+	{
+		display: inline-block;
+		width:48%;
+	}
+
+	footer{
+		margin-left: 13%;
+  		
+	}
+
+	footer p{
+		display: inline-block;
+		width: 32%;
+		font-size:14px;
+	}
+
+	footer a img{
+		width:50px;
+		height:50px;
+		margin: 50px;
+		vertical-align: middle;
+	}
+}
