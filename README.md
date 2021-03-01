@@ -20,7 +20,7 @@ La seule difficulté rencontrée et qui n'est pas des moindres, c'est le fait qu
 
 -------------
 ## Map <a id="map"></a>
-#### Fonctionnalité n°2: Dimensionner le vaisseau
+
 
 Cette fonctionnalité permet l'affichage d'une carte. L'utilisateur peut directement voir où se déroulent les dégustations et en cliquant dessus leurs informations.
 
